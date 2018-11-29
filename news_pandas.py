@@ -45,7 +45,7 @@ def getNewsDetail(news_url):
 
 
 # 函数：先根据动态加载每页最新新闻的js_url来获取该页的20个新闻url
-#      然后，根据该则新闻url，整合改则新闻的所需内容
+#      然后，根据该则新闻url，整合该则新闻的所需内容
 # 参数：js_url,
 def getNews(js_url):
     newsDetails = []  # 存储每则新闻的内容
